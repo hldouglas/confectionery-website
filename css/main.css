@@ -5,3 +5,16 @@ html {
 h1, h2, h3 {
   font-family: 'Josefin Slab', serif;
 }
+
+header {
+  background-color: #a81e4d;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
