@@ -7,6 +7,7 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
@@ -38,28 +39,34 @@
 
     <section>
       <h2>Contact</h2>
-      Address: 298 Elgin St
-      Phone: 613-xxx-xxxx
+      <p>Address: 298 Elgin St
+      <br>Phone: 613-xxx-xxxx
+      <br>Hours: Monday to Saturday 9AM - 9PM, Sunday 11AM - 5PM</p>
 
-      Want to send us a message?
-      Fill out the fields below
+      <h3>Want to send us a message?</h3>
+      <p>Fill out the fields below</p>
 
       <form method="POST" action="https://formspree.io/doug0139@algonquinlive.com">
         <div>
-          Name:
+          <label for="name">Name:</label>
+          <input id="name">
         </div>
         <div>
-          Email:
+          <label for="email">Email:</label>
+          <input id="email" type="email">
         </div>
         <div>
-          Topic:
-          General
-          Allergens
-          Careers
-          Other
+          <label for="topic">Topic:</label>
+          <select id="topic">
+            <option>General</option>
+            <option>Allergens</option>
+            <option>Careers</option>
+            <option>Other</option>
+          </select>
         </div>
         <div>
-          Comments:
+          <label for="comments">Comments:</label>
+          <textarea id="comments"></textarea>
         </div>
       </form>
     </section>
