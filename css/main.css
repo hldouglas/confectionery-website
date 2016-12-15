@@ -33,9 +33,32 @@ a {
   color: #000;
 }
 
+button {
+  background-color: #f18eb5;
+  color: #000;
+  border: 1px solid;
+  border-radius: 11px;
+}
+
+button:hover {
+  background-color: #98d8de;
+}
+
+footer {
+  background-color: #459293;
+}
+
+footer p {
+  color: #fff;
+}
+
 @media only screen and (min-width: 20em) {
 
   h1 {
+    text-align: center;
+  }
+
+  footer p {
     text-align: center;
   }
 
