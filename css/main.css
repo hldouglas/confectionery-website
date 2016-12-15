@@ -18,3 +18,25 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+.nav {
+  text-align: center;
+}
+
+.nav li {
+  display: block;
+  background-color: #ee5f9b;
+}
+
+.nav li:hover, .nav li:hover a{
+  background-color: #f18eb5;
+  color: #000;
+}
+
+@media only screen and (min-width: 20em) {
+
+  h1 {
+    text-align: center;
+  }
+
+}
