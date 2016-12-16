@@ -11,7 +11,7 @@ header {
 }
 
 .logo {
-  width: 48px;
+  width: 32px;
 }
 
 h1 {
@@ -66,8 +66,42 @@ footer p {
     text-align: center;
   }
 
+  h1 {
+    padding-top: .325rem;
+    padding-bottom: .325rem;
+  }
+
   footer p {
     text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+    width: 32%
+  }
+
+  .nav ul {
+    background-color: #ee5f9b;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    width: 48px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
   }
 
 }
