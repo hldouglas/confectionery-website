@@ -1,9 +1,9 @@
 html {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Josefin Slab', serif;
+  font-family: "Josefin Slab", serif;
 }
 
 header {
@@ -32,7 +32,7 @@ a {
   background-color: #ee5f9b;
 }
 
-.nav li:hover, .nav li:hover a{
+.nav li:hover, .nav li:hover a {
   background-color: #f18eb5;
   color: #000;
 }
@@ -81,7 +81,7 @@ footer p {
 
   .nav li {
     display: inline-block;
-    width: 32%
+    width: 32%;
   }
 
   .nav ul {
